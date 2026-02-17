@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./weatherApp.css">
+</head>
+<body>
+    <!-- <input type="text" name="city" id="city">
+    <button onclick="showWeather()">Show Weather</button>
+    <script src="./WeatherApp.js"></script>
+    <div id="main">
+    </div> -->
+    <div class="weather-image">
+  <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="Weather Icon">
+</div>
+
+    <input type="text" id="city" placeholder="Enter city name">
+    <script src="./WeatherApp.js"></script>
+
+    <button class="weather-btn" onclick="showWeather()">
+      Show Weather
+    </button>
+
+    <!-- Loading animation -->
+    <div class="loader hidden"></div>
+
+    <!-- Result -->
+    <div id="main">
+      <!-- Weather result will appear here -->
+      <!-- Example structure your JS can inject:
+      <div class="weather-icon">☀️</div>
+      <h2>Hyderabad</h2>
+      <p class="temp">30°C</p>
+      <p class="desc">Clear Sky</p>
+      -->
+    </div>
+  </div>
+</body>
+</html>
